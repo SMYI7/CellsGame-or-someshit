@@ -16,8 +16,10 @@ public class GameManager : MonoBehaviour
     public enum States
     {
         none,
+        gery,
         red,
         green
+
     }
     private void Awake()
     {
@@ -26,7 +28,7 @@ public class GameManager : MonoBehaviour
 
     void Start()
     {
-        string alph = "abcdefghijklmnopqrstuvwxyz";
+        string alph = "abcdefghijklmnopqrstuvwyz";
         alphapet = alph.ToCharArray();
         CellText = GameObject.FindGameObjectsWithTag("Alpha");
         usedAlpha.Add(currentAlpha);
@@ -98,12 +100,15 @@ public class GameManager : MonoBehaviour
                         switch(cell.currentState)
                         {
                             case States.none:
-                                cell.currentState = States.green;
+                                cell.currentState = States.gery;
                                 break;
-                            case States.green:
+                            case States.gery:
                                 cell.currentState = States.red;
                                 break;
                             case States.red:
+                                cell.currentState = States.green;
+                                break;
+                            case States.green:
                                 cell.currentState = States.none;
                                 break;
                             default:

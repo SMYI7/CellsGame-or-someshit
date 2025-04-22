@@ -8,6 +8,7 @@ public class CellScript : MonoBehaviour
     SpriteRenderer SR;
     public Color red;
     public Color green;
+    public Color grey;
 
     void Start()
     {
@@ -27,6 +28,9 @@ public class CellScript : MonoBehaviour
                 break;
             case (GameManager.States.none):
                 SR.color = Color.white;
+                break;
+            case (GameManager.States.gery):
+                SR.color = grey;
                 break;
             default:
                 break;

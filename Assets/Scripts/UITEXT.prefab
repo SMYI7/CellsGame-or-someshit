@@ -76,7 +76,7 @@ MonoBehaviour:
   m_fontColor32:
     serializedVersion: 2
     rgba: 2298478592
-  m_fontColor: {r: 0, g: 0, b: 0, a: 0.5372549}
+  m_fontColor: {r: 0.6792453, g: 0.6792453, b: 0.6792453, a: 0.09411765}
   m_enableVertexGradient: 0
   m_colorMode: 3
   m_fontColorGradient:
@@ -150,8 +150,18 @@ MonoBehaviour:
   instance: {fileID: 0}
   spawner: {fileID: 0}
   tf: {fileID: 0}
-  moveSpeed: 3.22
+  moveSpeed: 0.04
   rotationSpeed: 0
-  minSize: 0
-  maxSize: 0
-  lifeTime: 13.55
+  minSize: 0.96
+  maxSize: 2.77
+  lifeTime: 60
+  fontAssets:
+  - {fileID: 11400000, guid: 6d7f9eccf51fb1d45a7db80fb9b7a444, type: 2}
+  - {fileID: 11400000, guid: 23373148a7ea4f64695558c06fe675c4, type: 2}
+  - {fileID: 11400000, guid: b1358efc856aba345954e2bb4f63006e, type: 2}
+  - {fileID: 11400000, guid: 6e171eadbb798454cb2eec98e0d32c89, type: 2}
+  - {fileID: 11400000, guid: be43eeb5e10d04a4f8deaad7e2e07d0f, type: 2}
+  - {fileID: 11400000, guid: e1a007d688d41b342811c831402bc3bf, type: 2}
+  - {fileID: 11400000, guid: bc0741ec733bd6d4c9f5c12cf45231a1, type: 2}
+  - {fileID: 11400000, guid: 14d39489e353563438aacca39be29ed0, type: 2}
+  - {fileID: 11400000, guid: c381da75a287b25478945e5ea3a3a5dd, type: 2}

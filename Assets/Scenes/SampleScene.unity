@@ -410,6 +410,7 @@ MonoBehaviour:
   currentState: 0
   red: {r: 0.91372555, g: 0.2392157, b: 0.20784315, a: 1}
   green: {r: 0.08627451, g: 0.5254902, b: 0.37647063, a: 1}
+  grey: {r: 0.7264151, g: 0.7264151, b: 0.7264151, a: 1}
 --- !u!1 &129637617
 GameObject:
   m_ObjectHideFlags: 0
@@ -563,6 +564,7 @@ MonoBehaviour:
   currentState: 0
   red: {r: 0.91372555, g: 0.2392157, b: 0.20784315, a: 1}
   green: {r: 0.08627451, g: 0.5254902, b: 0.37647063, a: 1}
+  grey: {r: 0.7264151, g: 0.7264151, b: 0.7264151, a: 1}
 --- !u!1 &139629014
 GameObject:
   m_ObjectHideFlags: 0
@@ -800,6 +802,7 @@ MonoBehaviour:
   currentState: 0
   red: {r: 0.91372555, g: 0.2392157, b: 0.20784315, a: 1}
   green: {r: 0.08627451, g: 0.5254902, b: 0.37647063, a: 1}
+  grey: {r: 0.7264151, g: 0.7264151, b: 0.7264151, a: 1}
 --- !u!1 &164557983
 GameObject:
   m_ObjectHideFlags: 0
@@ -1607,6 +1610,7 @@ MonoBehaviour:
   currentState: 0
   red: {r: 0.91372555, g: 0.2392157, b: 0.20784315, a: 1}
   green: {r: 0.08627451, g: 0.5254902, b: 0.37647063, a: 1}
+  grey: {r: 0.7264151, g: 0.7264151, b: 0.7264151, a: 1}
 --- !u!1 &483101364
 GameObject:
   m_ObjectHideFlags: 0
@@ -2640,6 +2644,7 @@ MonoBehaviour:
   currentState: 0
   red: {r: 0.91372555, g: 0.2392157, b: 0.20784315, a: 1}
   green: {r: 0.08627451, g: 0.5254902, b: 0.37647063, a: 1}
+  grey: {r: 0.7264151, g: 0.7264151, b: 0.7264151, a: 1}
 --- !u!1 &799105223
 GameObject:
   m_ObjectHideFlags: 0
@@ -2793,6 +2798,7 @@ MonoBehaviour:
   currentState: 0
   red: {r: 0.91372555, g: 0.2392157, b: 0.20784315, a: 1}
   green: {r: 0.08627451, g: 0.5254902, b: 0.37647063, a: 1}
+  grey: {r: 0.7264151, g: 0.7264151, b: 0.7264151, a: 1}
 --- !u!1 &859646365
 GameObject:
   m_ObjectHideFlags: 0
@@ -3114,6 +3120,7 @@ MonoBehaviour:
   currentState: 0
   red: {r: 0.91372555, g: 0.2392157, b: 0.20784315, a: 1}
   green: {r: 0.08627451, g: 0.5254902, b: 0.37647063, a: 1}
+  grey: {r: 0.7264151, g: 0.7264151, b: 0.7264151, a: 1}
 --- !u!1 &940871602
 GameObject:
   m_ObjectHideFlags: 0
@@ -3485,6 +3492,7 @@ MonoBehaviour:
   currentState: 0
   red: {r: 0.91372555, g: 0.2392157, b: 0.20784315, a: 1}
   green: {r: 0.08627451, g: 0.5254902, b: 0.37647063, a: 1}
+  grey: {r: 0.7264151, g: 0.7264151, b: 0.7264151, a: 1}
 --- !u!1 &963258701
 GameObject:
   m_ObjectHideFlags: 0
@@ -3626,7 +3634,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: -1
   m_Sprite: {fileID: 7482667652216324306, guid: 75f5f34dc1b5347e0b8351032682f224, type: 3}
   m_Color: {r: 0.08627451, g: 0.5254902, b: 0.37647063, a: 1}
   m_FlipX: 0
@@ -3684,7 +3692,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   TextCanva: {fileID: 1446235062}
   TextPrefap: {fileID: 5471825137845262886, guid: 0b0aba31a559dbb48ba4fbf7bed79984, type: 3}
-  TextDelay: 0.51
+  TextDelay: 0.06
 --- !u!4 &990026851
 Transform:
   m_ObjectHideFlags: 0
@@ -3694,7 +3702,7 @@ Transform:
   m_GameObject: {fileID: 990026849}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -11.2887535, y: 5.5448785, z: 1.3076111}
+  m_LocalPosition: {x: -7.7, y: 7.17, z: 1.3076111}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -4089,6 +4097,7 @@ MonoBehaviour:
   currentState: 0
   red: {r: 0.91372555, g: 0.2392157, b: 0.20784315, a: 1}
   green: {r: 0.08627451, g: 0.5254902, b: 0.37647063, a: 1}
+  grey: {r: 0.7264151, g: 0.7264151, b: 0.7264151, a: 1}
 --- !u!1 &1101891159
 GameObject:
   m_ObjectHideFlags: 0
@@ -4193,7 +4202,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: -1
   m_Sprite: {fileID: 7482667652216324306, guid: 75f5f34dc1b5347e0b8351032682f224, type: 3}
   m_Color: {r: 0.08627451, g: 0.5254902, b: 0.37647063, a: 1}
   m_FlipX: 0
@@ -4642,6 +4651,7 @@ MonoBehaviour:
   currentState: 0
   red: {r: 0.91372555, g: 0.2392157, b: 0.20784315, a: 1}
   green: {r: 0.08627451, g: 0.5254902, b: 0.37647063, a: 1}
+  grey: {r: 0.7264151, g: 0.7264151, b: 0.7264151, a: 1}
 --- !u!1 &1205984138
 GameObject:
   m_ObjectHideFlags: 0
@@ -5503,6 +5513,7 @@ MonoBehaviour:
   currentState: 0
   red: {r: 0.91372555, g: 0.2392157, b: 0.20784315, a: 1}
   green: {r: 0.08627451, g: 0.5254902, b: 0.37647063, a: 1}
+  grey: {r: 0.7264151, g: 0.7264151, b: 0.7264151, a: 1}
 --- !u!1 &1502335567
 GameObject:
   m_ObjectHideFlags: 0
@@ -5656,6 +5667,7 @@ MonoBehaviour:
   currentState: 0
   red: {r: 0.91372555, g: 0.2392157, b: 0.20784315, a: 1}
   green: {r: 0.08627451, g: 0.5254902, b: 0.37647063, a: 1}
+  grey: {r: 0.7264151, g: 0.7264151, b: 0.7264151, a: 1}
 --- !u!1 &1582479521
 GameObject:
   m_ObjectHideFlags: 0
@@ -6012,6 +6024,7 @@ MonoBehaviour:
   currentState: 0
   red: {r: 0.91372555, g: 0.2392157, b: 0.20784315, a: 1}
   green: {r: 0.08627451, g: 0.5254902, b: 0.37647063, a: 1}
+  grey: {r: 0.7264151, g: 0.7264151, b: 0.7264151, a: 1}
 --- !u!1 &1659273936
 GameObject:
   m_ObjectHideFlags: 0
@@ -6165,6 +6178,7 @@ MonoBehaviour:
   currentState: 0
   red: {r: 0.91372555, g: 0.2392157, b: 0.20784315, a: 1}
   green: {r: 0.08627451, g: 0.5254902, b: 0.37647063, a: 1}
+  grey: {r: 0.7264151, g: 0.7264151, b: 0.7264151, a: 1}
 --- !u!1 &1713159737
 GameObject:
   m_ObjectHideFlags: 0
@@ -6804,6 +6818,7 @@ MonoBehaviour:
   currentState: 0
   red: {r: 0.91372555, g: 0.2392157, b: 0.20784315, a: 1}
   green: {r: 0.08627451, g: 0.5254902, b: 0.37647063, a: 1}
+  grey: {r: 0.7264151, g: 0.7264151, b: 0.7264151, a: 1}
 --- !u!1 &1839700862
 GameObject:
   m_ObjectHideFlags: 0
@@ -7225,6 +7240,7 @@ MonoBehaviour:
   currentState: 0
   red: {r: 0.91372555, g: 0.2392157, b: 0.20784315, a: 1}
   green: {r: 0.08627451, g: 0.5254902, b: 0.37647063, a: 1}
+  grey: {r: 0.7264151, g: 0.7264151, b: 0.7264151, a: 1}
 --- !u!1 &1928824814
 GameObject:
   m_ObjectHideFlags: 0
@@ -7462,6 +7478,7 @@ MonoBehaviour:
   currentState: 0
   red: {r: 0.91372555, g: 0.2392157, b: 0.20784315, a: 1}
   green: {r: 0.08627451, g: 0.5254902, b: 0.37647063, a: 1}
+  grey: {r: 0.7264151, g: 0.7264151, b: 0.7264151, a: 1}
 --- !u!1 &1952471096
 GameObject:
   m_ObjectHideFlags: 0
@@ -7967,6 +7984,7 @@ MonoBehaviour:
   currentState: 0
   red: {r: 0.91372555, g: 0.2392157, b: 0.20784315, a: 1}
   green: {r: 0.08627451, g: 0.5254902, b: 0.37647063, a: 1}
+  grey: {r: 0.7264151, g: 0.7264151, b: 0.7264151, a: 1}
 --- !u!1 &1966098150
 GameObject:
   m_ObjectHideFlags: 0
@@ -8120,6 +8138,7 @@ MonoBehaviour:
   currentState: 0
   red: {r: 0.91372555, g: 0.2392157, b: 0.20784315, a: 1}
   green: {r: 0.08627451, g: 0.5254902, b: 0.37647063, a: 1}
+  grey: {r: 0.7264151, g: 0.7264151, b: 0.7264151, a: 1}
 --- !u!1 &1971210201
 GameObject:
   m_ObjectHideFlags: 0
@@ -8273,6 +8292,7 @@ MonoBehaviour:
   currentState: 0
   red: {r: 0.91372555, g: 0.2392157, b: 0.20784315, a: 1}
   green: {r: 0.08627451, g: 0.5254902, b: 0.37647063, a: 1}
+  grey: {r: 0.7264151, g: 0.7264151, b: 0.7264151, a: 1}
 --- !u!1 &1971650533
 GameObject:
   m_ObjectHideFlags: 0
@@ -8414,7 +8434,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: -1
   m_Sprite: {fileID: 7482667652216324306, guid: 75f5f34dc1b5347e0b8351032682f224, type: 3}
   m_Color: {r: 0.91372555, g: 0.24313727, b: 0.20392159, a: 1}
   m_FlipX: 0
