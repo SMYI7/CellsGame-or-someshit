@@ -16,6 +16,7 @@ public class GameManager : MonoBehaviour
     public enum States
     {
         none,
+        lightGrey,
         gery,
         red,
         green
@@ -84,14 +85,33 @@ public class GameManager : MonoBehaviour
     }
     void selectCell()
     {
-        if(Input.GetKeyDown(KeyCode.Mouse0))
+        Vector2 mousepos = Camera.main.ScreenToWorldPoint(Input.mousePosition);
+        RaycastHit2D hitinfo = Physics2D.BoxCast(mousepos, 0.5f * Vector2.one, 0, Vector2.zero);
+        if (!Input.GetKeyDown(KeyCode.Mouse0))
         {
-           // Ray mouseSelection = Camera.main.ScreenPointToRay(Input.mousePosition);
-           Vector2 mousepos = Camera.main.ScreenToWorldPoint(Input.mousePosition);
-            RaycastHit2D hitinfo = Physics2D.BoxCast(mousepos, 0.5f * Vector2.one, 0, Vector2.zero);
             if (hitinfo != null)
             {
-                Debug.Log(hitinfo.collider);
+                //Debug.Log(hitinfo.collider);
+                if (hitinfo.collider != null)
+                {
+                    CellScript cell = hitinfo.collider.gameObject.GetComponent<CellScript>();
+                    if (cell != null && cell.currentState == States.none)
+                    {
+                        cell.currentState = States.lightGrey;
+                    }
+                }
+
+                
+             }
+        }
+           // Ray mouseSelection = Camera.main.ScreenPointToRay(Input.mousePosition);
+           if (Input.GetKeyDown(KeyCode.Mouse0))
+        {
+
+            if (hitinfo != null)
+            {
+                //Debug.Log(hitinfo.collider);
+
                 if (hitinfo.collider != null)
                 {
                     CellScript cell = hitinfo.collider.gameObject.GetComponent<CellScript>();
@@ -100,6 +120,9 @@ public class GameManager : MonoBehaviour
                         switch(cell.currentState)
                         {
                             case States.none:
+                                cell.currentState = States.gery;
+                                break;
+                            case States.lightGrey:
                                 cell.currentState = States.gery;
                                 break;
                             case States.gery:
@@ -120,11 +143,12 @@ public class GameManager : MonoBehaviour
                 }
             }
         }
+    }
 
-        }
     private void OnDrawGizmos()
     {
         Vector2 mousepos = Camera.main.ScreenToWorldPoint(Input.mousePosition);
         Gizmos.DrawWireCube(mousepos, 0.5f * Vector2.one);
     }
 }
+
